@@ -111,9 +111,11 @@ const Header = () => {
               fontWeight: "bold",
               fontSize: scrolled ? "1.2rem" : "1.5rem",
               transition: "all 0.3s ease-in-out",
+              border: "2px dotted white",
+              padding: "5px",
             }}
           >
-            HELLOS
+            Prinko
           </Typography>
 
           {/* Search Input & Dropdown - Moved Closer to Upload */}
