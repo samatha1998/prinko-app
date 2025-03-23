@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import hero from "../assets/images/gamepost__30_-1-300x420.jpg";
+import hero from "../assets/images/image4.jpg";
 
 const Hero = () => {
   return (

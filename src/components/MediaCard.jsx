@@ -2,9 +2,9 @@ import React from "react";
 import { Card, Typography, IconButton, Box } from "@mui/material";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import StarIcon from "@mui/icons-material/Star";
-import Image1 from "../assets/images/gamepost__30_-1-300x420.jpg";
-import Image2 from "../assets/images/video_img11-1-300x420.jpg";
-import Image3 from "../assets/images/video_img6-1-300x420.jpg";
+import Image1 from "../assets/images/image1.jpg";
+import Image2 from "../assets/images/image2.jpg";
+import Image3 from "../assets/images/image3.jpg";
 import { Link } from "react-router-dom";
 
 // Default thumbnails for media types

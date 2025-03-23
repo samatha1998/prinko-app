@@ -36,7 +36,7 @@ const Footer = () => {
             variant="body1"
             sx={{ fontSize: "1.1rem", fontWeight: "bold" }}
           >
-            &copy; {new Date().getFullYear()} Play CO. All rights reserved.
+            &copy; {new Date().getFullYear()} Prinko. All rights reserved.
           </Typography>
 
           {/* Social Media Icons */}

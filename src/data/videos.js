@@ -2,7 +2,7 @@ import video1 from "../assets/videos/v1.mp4";
 import video2 from "../assets/videos/v2.mp4";
 import video3 from "../assets/videos/v1.mp4";
 import video4 from "../assets/videos/v2.mp4";
-import Image from "../assets/images/banner5.jpg";
+import Image from "../assets/images/image2.jpg";
 const videos = [
   {
     id: 1,

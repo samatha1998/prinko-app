@@ -9,7 +9,7 @@ import Skeleton from "@mui/material/Skeleton"; // ✅ Import Skeleton
 import CommentSection from "../components/CommentSection";
 import Rating from "../components/Rating";
 import { fetchMedia, submitComment } from "../services/api";
-import banner from "../assets/images/istockphoto-1370724678-612x612.jpg";
+import banner from "../assets/images/image4.jpg";
 
 const MediaDetails = () => {
   const { id } = useParams();
