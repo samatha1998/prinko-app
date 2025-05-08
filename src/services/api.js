@@ -14,7 +14,7 @@ export const fetchMedias = async (query = "") => {
   try {
     const params = {};
     if (query.trim()) {
-      params.search = query.trim();
+      params.query = query.trim(); // ✅ backend expects "query", not "search"
     }
 
     const response = await axios.get(`${API_BASE_URL}/medias`, { params });
@@ -24,6 +24,7 @@ export const fetchMedias = async (query = "") => {
     throw error;
   }
 };
+
 
 
 
