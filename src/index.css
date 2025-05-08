@@ -19,7 +19,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    background-color: #efeaea;
+    background-color: gray;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -68,4 +68,8 @@ h2{
   display: flex;
   align-items: center;
   margin-top: 10px;
+}
+
+.MuiBox-root {
+  margin-top: 0 !important;
 }

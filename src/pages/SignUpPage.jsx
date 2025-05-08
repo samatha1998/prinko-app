@@ -37,15 +37,16 @@ const SignUpPage = () => {
   return (
     <div
       style={{
-        backgroundColor: "#f5f5f5",
+        backgroundColor: "gray",
         padding: "16px",
-        margin: "100px auto",
+        margin: "0px auto",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        height: "50vh",
-        width: "80%",
+        height: "60vh",
+        width: "60%",
+        paddingTop: "200px",
       }}
     >
       <Typography variant={isSmallScreen ? "h5" : "h4"} gutterBottom>

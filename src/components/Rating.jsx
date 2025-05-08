@@ -48,7 +48,7 @@ const Rating = ({ mediaId, initialRating }) => {
             onClick={() => handleRating(star)}
             sx={{
               cursor: "pointer",
-              color: userRating >= star ? "gold" : "gray",
+              color: userRating >= star ? "gold" : "white",
               marginRight: 0.5,
             }}
           >
