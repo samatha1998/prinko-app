@@ -12,15 +12,19 @@ const isTokenExpired = (token) => {
 
 export const fetchMedias = async (query = "") => {
   try {
-    const response = await axios.get(`${API_BASE_URL}/medias`, {
-      params: { search: query },
-    });
+    const params = {};
+    if (query.trim()) {
+      params.search = query.trim();
+    }
+
+    const response = await axios.get(`${API_BASE_URL}/medias`, { params });
     return response.data;
   } catch (error) {
     console.error("Error fetching videos:", error);
     throw error;
   }
 };
+
 
 
 export const fetchMedia = async (id) => {
