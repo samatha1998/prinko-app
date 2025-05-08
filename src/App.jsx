@@ -19,8 +19,9 @@ import UploadMediaPage from "./pages/admin/UploadMediaPage";
 import PrivateRoute from "./components/PrivateRoute";
 import "./App.css";
 
-
 const App = () => {
+  console.log("API Base URL:", import.meta.env.VITE_APP_BASE_URL);
+
   return (
     <Router>
       <Routes>
@@ -39,19 +40,16 @@ const App = () => {
           element={
             <>
               <Header />
-             
-                <Routes>
-                  <Route path="/" element={<HomePage />} />
-                  <Route path="/media/:id" element={<MediaDetails />} />
-                  <Route path="/medias" element={<AllMediaPage />} />
-                  <Route
-                    path="/category/:category"
-                    element={<CategoryPage />}
-                  />
-                  <Route path="/login" element={<LoginPage />} />
-                  <Route path="/signup" element={<SignUpPage />} />
-                </Routes>
-            
+
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/media/:id" element={<MediaDetails />} />
+                <Route path="/medias" element={<AllMediaPage />} />
+                <Route path="/category/:category" element={<CategoryPage />} />
+                <Route path="/login" element={<LoginPage />} />
+                <Route path="/signup" element={<SignUpPage />} />
+              </Routes>
+
               <Footer />
             </>
           }
